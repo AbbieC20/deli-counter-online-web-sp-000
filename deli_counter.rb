@@ -12,8 +12,8 @@ def line(queue)
 end
 
 
-def take_a_number(queue, last)
-  puts "Welcome, #{last}. You are number #{queue + 1} in line."
+def take_a_number(name, position)
+  puts "Welcome, #{name}. You are number #{position + 1} in line."
 end
 
 #queue is the array for people in the deli queue
