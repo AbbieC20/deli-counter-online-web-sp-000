@@ -12,6 +12,7 @@ def line(queue)
 end
 
 
+
 #queue_list = queue.join(", ")
 #puts "The line is currently: #{queue_list}"
 
