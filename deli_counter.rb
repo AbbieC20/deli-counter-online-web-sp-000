@@ -2,11 +2,15 @@ def line(queue)
   if queue.length == 0
     puts "The line is currently empty."
   else
-    
-    queue_list = queue.join(", ")
-    puts "The line is currently: #{queue_list}"
+    queue_call = []
+    queue.each do |position|
+    puts "#{position}."
   end
 end
+
+
+#queue_list = queue.join(", ")
+#puts "The line is currently: #{queue_list}"
 
 #queue is the array which shows people in the deli queue
 
