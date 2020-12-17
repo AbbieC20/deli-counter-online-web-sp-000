@@ -2,8 +2,10 @@ def line(queue)
   if queue.length == 0
     puts "The line is currently empty."
   else
+    position_list = []
     queue.each_with_index do |name, position|
-      puts "#{position + 1}. #{name}"
+      position = "#{position + 1}. #{name}"
+      position_list.push(position)
     end
   end
 end
