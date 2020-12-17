@@ -2,9 +2,10 @@ def line(queue)
   if queue.length == 0
     puts "The line is currently empty."
   else
-    queue_call = []
+    queue_position = 1
     queue.each do |position|
     puts "#{position}."
+    queue_position + 1
   end
 end
 
