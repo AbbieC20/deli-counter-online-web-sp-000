@@ -3,7 +3,7 @@ def line(queue)
     puts "The line is currently empty."
   else
     queue.each_with_index do |position, name|
-    puts "#{position}. #{name}"
+    puts "#{position + 1}. #{name}"
   end
 end
 
