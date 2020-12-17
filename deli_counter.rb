@@ -13,6 +13,7 @@ end
 
 
 def take_a_number(katz_deli, name)
+  puts name.join
   puts "Welcome, #{name}. You are number #{position + 1} in line."
 end
 
