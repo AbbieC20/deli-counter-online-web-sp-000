@@ -4,6 +4,7 @@ def line(queue)
   else
     queue.each_with_index do |position, name|
     puts "#{position + 1}. #{name}"
+    end
   end
 end
 
