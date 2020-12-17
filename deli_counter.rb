@@ -7,7 +7,7 @@ def line(queue)
       position = "#{position + 1}. #{name}"
       position_list.push(position)
     end
-    puts "Hello" position_list
+    puts "Hello" + position_list.join
   end
 end
 
