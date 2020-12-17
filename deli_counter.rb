@@ -12,9 +12,8 @@ def line(queue)
 end
 
 
-def take_a_number(katz_deli, name)
-  puts name.join()
-  puts "Welcome, #{name}. You are number #{position + 1} in line."
+def take_a_number(katz_deli, "Ada")
+  puts "Welcome, #{name.join}. You are number #{position + 1} in line."
 end
 
 #queue is the array for people in the deli queue
