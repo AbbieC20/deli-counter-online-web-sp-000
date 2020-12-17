@@ -16,6 +16,3 @@ def take_a_number (katz_deli, name)
   katz_deli.push(name)
   puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
 end
-
-#queue is the array for people in the deli queue
-#last is the name of the person joining the end of the line
