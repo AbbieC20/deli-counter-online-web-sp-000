@@ -12,7 +12,7 @@ def line(queue)
 end
 
 
-def take_a_number (name, postion)
+def take_a_number (katz_deli, name = "Ada")
   puts "Welcome, #{name}. You are number #{position + 1} in line."
 end
 
